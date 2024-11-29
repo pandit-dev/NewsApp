@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+        "source": {
+        "id": "cnn",
+        "name": "CNN"
+        },
+        "author": "Evan Perez, Hannah Rabinowitz",
+        "title": "Pakistani national with ties to Iran charged in connection to a foiled assassination plot potentially targeting Trump",
+        "description": "The Justice Department has charged a Pakistani man who has alleged ties to the Iranian government with seeking to carry out political assassinations, a case that prompted the US government to increase security for former President Donald Trump and other offic…",
+        "url": "https://www.cnn.com/2024/08/06/politics/iran-trump-assassination-charges/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/2009-07-14t000000z-1979181773-wase57e1hs201-rtrmadp-3-usa.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2024-08-06T18:05:55Z",
+        "content": "The Justice Department has charged a Pakistani man who has alleged ties to the Iranian government with seeking to carry out political assassinations, a case that prompted the US government to increas… [+2347 chars]"
+        },
+        {
+        "source": {
+        "id": null,
+        "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+        },
+        {
+        "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+        },
+        "author": "Henry J. Gomez, Matt Dixon",
+        "title": "'Kamala caved': Trump and his allies cast the Walz pick as liberal overload",
+        "description": "Republicans quickly launched a campaign framing Kamala Harris and Tim Walz as a radically far-left ticket.",
+        "url": "https://www.nbcnews.com/politics/2024-election/kamala-harris-caved-trump-allies-tim-walz-pick-liberal-overload-rcna165349",
+        "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-08/240806-jd-vance-tim-walz-vl-1207p-6c1759.jpg",
+        "publishedAt": "2024-08-06T17:18:51Z",
+        "content": "Donald Trump and his allies moved quickly Tuesday to define Minnesota Gov. Tim Walz, casting Vice President Kamala Harris new running mate as an agent of the far left.\r\nWalz, the Trump campaign posit… [+7530 chars]"
+        },
+        {
+        "source": {
+        "id": "breitbart-news",
+        "name": "Breitbart News"
+        },
+        "author": "Wendell Husebø",
+        "title": "'THANK YOU!' Donald Trump Mocks Kamala Harris's VP Pick",
+        "description": "Donald Trump delivered a two-word statement that mocked Kamala Harris's running mate selection of radical leftist Minnesota Gov. Tim Walz.",
+        "url": "https://www.breitbart.com/2024-election/2024/08/06/thank-you-donald-trump-mocks-kamala-harris-s-vp-pick/",
+        "urlToImage": "https://media.breitbart.com/media/2024/08/Donald-Trump-640x335.jpg",
+        "publishedAt": "2024-08-06T17:12:47Z",
+        "content": "Former President Donald Trump delivered a two-word statement that mocked Vice President Kamala Harris’s running mate selection of radical leftist Minnesota Gov. Tim Walz.\r\n“THANK YOU!” he posted on T… [+1791 chars]"
+        },
+        {
+        "source": {
+        "id": "google-news-ca",
+        "name": "Google News (Canada)"
+        },
+        "author": "CBC News",
+        "title": "Kamala Harris chooses Minnesota Gov. Tim Walz as running mate in U.S. presidential race against Trump - CBC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PQzRSTUFXNWpBSGlOTXY2TktZS0tYUWxYVVByVDRzRTJ4UFF0SmhNazRuSmFiRkl4SS03alNUOS1wUUxJZ0dnQTJsTl9qM09UWFVYc0loZGtpUGoxQk1SUzhTdzkyZzhPenVSWVpvcEoyQdIBR0FVX3lxTE4tbXRrcUprUDJUOVlTdXRzdXJGZW8yenlYNHFlQzZjR1RzS0cydDU5a1Y4Z2dic1pTTURKcWpsOTBtWlZKNmg0?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-08-06T16:56:16+00:00",
+        "content": null
+        },
+        {
+        "source": {
+        "id": null,
+        "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+        },
+        {
+        "source": {
+        "id": "breitbart-news",
+        "name": "Breitbart News"
+        },
+        "author": "Joel B. Pollak",
+        "title": "WATCH: Tim Walz Called Trump 'Fascist,' 'Threat to Democracy' Weeks After Assassination Attempt",
+        "description": "Minnesota Gov. Tim Walz said last week that former President Donald Trump was a \"threat to democracy,\" and called Republicans \"fascist.\"",
+        "url": "https://www.breitbart.com/politics/2024/08/06/watch-tim-walz-called-trump-fascist-threat-to-democracy-weeks-after-assassination-attempt/",
+        "urlToImage": "https://media.breitbart.com/media/2024/08/Tim-Walz-2-640x335.jpeg",
+        "publishedAt": "2024-08-06T16:36:08Z",
+        "content": "Minnesota Gov. Tim Walz (D), who was unveiled Tuesday as Vice President Kamala Harris’s running mate, said last week that former President Donald Trump was a “threat to democracy,” and called Republi… [+2332 chars]"
+        },
+        {
+        "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+        },
+        "author": "The Hill Staff",
+        "title": "Watch live: Vance speaks in Philadelphia after Harris reveals VP pick",
+        "description": "Former President Trump’s running mate, Sen. JD Vance (R-Ohio), is slated to give remarks at a campaign event in Philadelphia Tuesday, as the race for the White House tightens with less than 100 days until the election. Since taking up the mantle as the Democr…",
+        "url": "https://thehill.com/video-clips/4813563-watch-live-jd-vance-philadelphia-campaign-event/",
+        "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/07/vancejd_071624gn02_w.jpg?w=1280",
+        "publishedAt": "2024-08-06T15:49:06Z",
+        "content": "Former President Trump’s running mate, Sen. JD Vance (R-Ohio), is slated to give remarks at a campaign event in Philadelphia Tuesday, as the race for the White House tightens with less than 100 days … [+693 chars]"
+        },
+        {
+        "source": {
+        "id": null,
+        "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+        },
+        {
+        "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+        },
+        "author": "BY JENNIFER PELTZ",
+        "title": "Judge in Trump's hush money case delays date for ruling on presidential immunity",
+        "description": "NEW YORK (AP) — The judge in Donald Trump's hush money trial is pushing back a date for a key ruling on presidential immunity until two days before Trump's scheduled sentencing.The immunity decision had been due Sept.",
+        "url": "https://apnews.com/8db10bfa2631bbafdb32a35241a79e4f",
+        "urlToImage": "https://storage.googleapis.com/afs-prod/media/36474db466ce442b8b572bfc130ed9a6/3000.jpeg",
+        "publishedAt": "2024-08-06T14:55:51Z",
+        "content": "NEW YORK (AP) — The judge in Donald Trump's hush money trial is pushing back a date for a key ruling on presidential immunity until two days before Trump's scheduled sentencing.The immunity decision … [+3263 chars]"
+        },
+        {
+        "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+        },
+        "author": "JENNIFER PELTZ Associated Press",
+        "title": "Judge in Trump's hush money case delays date for ruling on presidential immunity",
+        "description": "The judge in Donald Trump’s hush money trial is pushing back a date for a key ruling on presidential immunity until two days before Trump’s scheduled sentencing",
+        "url": "https://abcnews.go.com/US/wireStory/judge-trumps-hush-money-case-delays-date-ruling-112610053",
+        "urlToImage": "https://i.abcnewsfe.com/a/9817146a-974b-44a7-be8d-c2c92a677d32/wirestory_8db10bfa2631bbafdb32a35241a79e4f_16x9.jpg?w=1600",
+        "publishedAt": "2024-08-06T14:55:37Z",
+        "content": "NEW YORK -- The judge in Donald Trump's hush money trial is pushing back a date for a key ruling on presidential immunity until two days before Trump's scheduled sentencing.\r\nThe immunity decision ha… [+3192 chars]"
+        },
+        {
+        "source": {
+        "id": null,
+        "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+        },
+        {
+        "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+        },
+        "author": "Nick Robertson",
+        "title": "Fox News host knocks Trump: ‘You either own the markets or you don’t’",
+        "description": "Fox News anchor Neil Cavuto challenged former President Trump’s record and comments on the stock market Monday after the former president blamed President Biden and Vice President Harris for this week’s slide. Trump said that the Wall Street drop, triggered b…",
+        "url": "https://thehill.com/business/4813153-fox-news-cavuto-trump-stock-market-wall-street/",
+        "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/08/blowback_daniels_Getty.jpg?w=1280",
+        "publishedAt": "2024-08-06T13:32:21Z",
+        "content": "Skip to content\r\nFox News anchor Neil Cavuto challenged former President Trump’s record and comments on the stock market Monday after the former president blamed President Biden and Vice President Ha… [+2348 chars]"
+        },
+        {
+        "source": {
+        "id": "google-news",
+        "name": "Google News"
+        },
+        "author": "The Hill",
+        "title": "Fox News host knocks Trump: ‘You either own the markets or you don’t’ - The Hill",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOTcweDRTREZiVk1UMHlzQUdvLXBTUXZWMmRXR2pLeS00TWcyUUI1QXY4azE4NWR3U0pmLXRGbFM3QXcta1FvVTlsbDNfbWpMcTk2ZTVSMmxqQ0RuRWZHdG1pRE84Y3NJdE1wMlo0OFJSTG83XzM1YWF5ekVxMFowd0dFaC1hd0RJckVvc9IBkgFBVV95cUxQRndLZVRhMnBLTEZTbXlvOW41VUdMOG9kUVZMaTlvQWpTbDdfYUZzc015TEhBdXNVa3hYM1FwVlFlbDdFWDk5bTVGOWo5LUtQOEI1Q2tuUUNBRGlVUWw2bXNmaDlFaGRSYzNfS2tmUTRWXy1hZ29BY2lXaDRhYXBWc2xlajFNMlZTZFo3Z0V1aTRUUQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-08-06T13:32:00+00:00",
+        "content": null
+        },
+        {
+        "source": {
+        "id": "cbc-news",
+        "name": "CBC News"
+        },
+        "author": "CBC News",
+        "title": "Kamala Harris chooses Minnesota Gov. Tim Walz as running mate in U.S. presidential race against Trump | CBC News",
+        "description": "Democratic U.S. presidential candidate Kamala Harris has chosen Minnesota Gov. Tim Walz as her 2024 vice-presidential running mate, The Associated Press and Reuters are reporting, citing anonymous sources.",
+        "url": "http://www.cbc.ca/news/world/harris-running-mate-walz-1.7286027",
+        "urlToImage": "https://i.cbc.ca/1.7286098.1722949187!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/minnesota-legislature.jpg",
+        "publishedAt": "2024-08-06T13:22:21.7175189Z",
+        "content": "Democratic U.S. presidential candidate Kamala Harris has chosen Minnesota Gov. Tim Walz as her 2024 vice-presidential running mate, The Associated Press and Reuters are reporting, citing anonymous so… [+691 chars]"
+        },
+        {
+        "source": {
+        "id": "cnn-es",
+        "name": "CNN Spanish"
+        },
+        "author": "Sol Amaya",
+        "title": "Trump dice que Venezuela está siendo gobernada por un dictador",
+        "description": "\"Venezuela está siendo gobernada por un dictador\", dijo este lunes el candidato presidencial republicano Donald Trump, sin mencionar por su nombre al mandatario Nicolás Maduro.",
+        "url": "https://cnnespanol.cnn.com/2024/08/06/trump-venezuela-dictador-maduro-reu/",
+        "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/08/trump_96d254-e1722669327382.jpg?quality=100&strip=info",
+        "publishedAt": "2024-08-06T12:54:19Z",
+        "content": "Maduro pide borrar WhatsApp y otras aplicaciones 0:16\r\n(Reuters) -- \"Venezuela está siendo gobernada por un dictador\", dijo este lunes el candidato presidencial republicano Donald Trump, sin menciona… [+1072 chars]"
+        },
+        {
+        "source": {
+        "id": "reddit-r-all",
+        "name": "Reddit /r/all"
+        },
+        "author": "Mini Racker",
+        "title": "Kamala Harris Picks Minnesota Governor Tim Walz for VP Running Mate",
+        "description": "Walz was the dark horse finalist who Donald Trump declared Tuesday will 'unleash HELL ON EARTH.'",
+        "url": "https://www.thedailybeast.com/kamala-harris-picks-minnesota-governor-tim-walz-for-vp-running-mate",
+        "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1722829131/240802-kamala-vp-pick-TIM-WALZ-hero_xyrnu1",
+        "publishedAt": "2024-08-06T12:52:36Z",
+        "content": "Democratic presidential nominee Kamala Harris has selected Minnesota Gov. Tim Walz as her running mate.\r\nCNN first reported the vice president's decision. \r\nAn unassuming former high school teacher a… [+1956 chars]"
+        },
+        {
+        "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+        },
+        "author": "Amie Parnes, Brandon Conradis",
+        "title": "Harris picks Walz for VP",
+        "description": "Vice President Harris has chosen Minnesota Gov. Tim Walz (D) to be her running mate as she heads toward a November faceoff against Donald Trump, according to two sources familiar. Walz, 60, emerged as a dark horse contender for the No. 2 slot as chatter over …",
+        "url": "https://thehill.com/homenews/campaign/4789021-kamala-harris-vp-tim-walz-minnesota/",
+        "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/08/walz-refuge_migdon_Getty.jpg?w=1280",
+        "publishedAt": "2024-08-06T12:51:16Z",
+        "content": "Skip to content\r\nVice President Harris has chosen Minnesota Gov. Tim Walz (D) to be her running mate as she heads toward a November faceoff against Donald Trump, according to two sources familiar.\r\nW… [+1196 chars]"
+        },
+        {
+        "source": {
+        "id": "the-huffington-post",
+        "name": "The Huffington Post"
+        },
+        "author": "Lee Moran",
+        "title": "Donald Trump’s ‘Pathetic’ New Way Of Attacking Kamala Harris Is Slammed Online",
+        "description": "The former president deployed a new moniker for his 2024 election rival in four posts on his Truth Social platform.",
+        "url": "https://www.huffpost.com/entry/donald-trump-new-attack-on-kamala-harris_n_66b1f538e4b09cb4a56a8a3b",
+        "urlToImage": "https://img.huffingtonpost.com/asset/66b1f99c2500005100049143.jpeg?cache=AxC1YWK8Hw&ops=1200_630",
+        "publishedAt": "2024-08-06T12:07:11Z",
+        "content": "Former President Donald Trump drew sharp criticism on social media for the latest way he tried to disparage 2024 election rival Kamala Harris.\r\nTrump, the Republican nominee, referred to Harris in fo… [+1363 chars]"
+        },
+        {
+        "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+        },
+        "author": "Maegan Vazquez, Amy B Wang, Praveena Somasundaram, Patrick Svitek, Tyler Pager, Aaron Blake, Hannah Knowles, Taylor Lorenz",
+        "title": "Election 2024 live updates: Harris to unveil running mate pick, hold rally in Philadelphia",
+        "description": "Get the latest news from the 2024 campaign trail in the contest between Vice President Harris and former president Donald Trump.",
+        "url": "https://www.washingtonpost.com/elections/2024/08/06/2024-election-campaign-updates-harris-trump/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5DE4JKP4GAVOECGU2R2BSGZEKI.JPG&w=1440",
+        "publishedAt": "2024-08-06T11:32:01Z",
+        "content": "Vice President Harris plans to unveil her highly anticipated pick for a running mate ahead of a rally planned Tuesday in Philadelphia. Arizona Sen. Mark Kelly, Pennsylvania Gov. Josh Shapiro and Minn… [+360 chars]"
+        }
+    ]
+}
