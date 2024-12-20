@@ -2,7 +2,7 @@ import React from "react";
 
 const Loading = () => {
   return (
-    <div className="d-flex justify-content-center align-self-center">
+    <div className="d-flex justify-content-center align-center">
       <button className="btn" type="button">
         <span
           className="spinner-border spinner-border-sm"

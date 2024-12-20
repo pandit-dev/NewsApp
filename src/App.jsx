@@ -13,8 +13,7 @@ function App() {
     <>
       <LoadingBar
         color='#f11946'
-        progress={progress}
-        // onLoaderFinished={() => setProgress(100)}
+        progress={progress}        
       />
       <Router>
         <Navbar setCategory={setCategory}   />
