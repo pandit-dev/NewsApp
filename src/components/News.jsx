@@ -4,15 +4,18 @@ import NewsCard from "./NewsCard";
 import { useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
+
 const News = ({ category, setProgress }) => {
   const [articles, setArticles] = useState([]);
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
   const [loading, setLoading] = useState(false);
 
+  const apiKey = import.meta.env.VITE_NEWS_API_KEY
+
   const updateNews = async () => {
     setProgress(20);
-    const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=${5}&page=${page}&apiKey=f6c8498c98444f2faea94b2fd28a07be`;
+    const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=${5}&page=${page}&apiKey=${apiKey}`;
     setLoading(true);
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -34,11 +37,11 @@ const News = ({ category, setProgress }) => {
   const fetchMoreData = async () => {
     const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=${5}&page=${
       page + 1
-    }&apiKey=f6c8498c98444f2faea94b2fd28a07be`;
+    }&apiKey=${apiKey}`;
     setPage(page + 1);
     let data = await fetch(url);
     let parsedData = await data.json();
-    setArticles(articles.concat(parsedData.articles));
+    setArticles(articles?.concat(parsedData.articles));
     setTotalResults(parsedData.totalResults);
   };
 
@@ -56,7 +59,7 @@ const News = ({ category, setProgress }) => {
         </h2>
 
         <InfiniteScroll
-          dataLength={articles.length}
+          dataLength={articles?.length}
           next={fetchMoreData}
           hasMore={articles.length != totalResults}
           loader={<Loading />}
@@ -66,16 +69,16 @@ const News = ({ category, setProgress }) => {
             style={{ backgroundColor: " #e3f2fd", minHeight: "70vh" }}
           >
             {loading && <Loading />}
-            {articles.map((news) => {
+            {articles?.map((news) => {
               return (
                 <NewsCard
-                  key={news.url}
-                  title={news.title}
-                  description={news.description}
-                  author={news.author}
-                  date={news.publishedAt}
-                  src={news.urlToImage}
-                  url={news.url}
+                  key={news?.url}
+                  title={news?.title}
+                  description={news?.description}
+                  author={news?.author}
+                  date={news?.publishedAt}
+                  src={news?.urlToImage}
+                  url={news?.url}
                 />
               );
             })}
