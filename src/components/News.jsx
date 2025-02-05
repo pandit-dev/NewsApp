@@ -4,25 +4,40 @@ import NewsCard from "./NewsCard";
 import { useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
-
 const News = ({ category, setProgress }) => {
   const [articles, setArticles] = useState([]);
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const apiKey = import.meta.env.VITE_NEWS_API_KEY
+  const apiKey = import.meta.env.VITE_NEWS_API_KEY;
 
   const updateNews = async () => {
-    setProgress(20);
-    const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=${5}&page=${page}&apiKey=${apiKey}`;
-    setLoading(true);
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    setArticles(parsedData.articles);
-    setProgress(100);
-    setLoading(false);
-    setTotalResults(parsedData.totalResults);
+    try {
+      setProgress(20);
+      setLoading(true);
+      const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=5&page=${page}&apiKey=${apiKey}`;
+
+      let response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error(`HTTP Error! Status: ${response.status}`);
+      }
+
+      let parsedData = await response.json();
+
+      if (!parsedData.articles) {
+        throw new Error("No articles found");
+      }
+
+      setArticles(parsedData.articles);
+      setTotalResults(parsedData.totalResults);
+      setProgress(100);
+    } catch (error) {
+      console.error("Error fetching news:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const capitalizeFirstLetter = (string) => {
@@ -35,14 +50,28 @@ const News = ({ category, setProgress }) => {
   }, [category]);
 
   const fetchMoreData = async () => {
-    const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=${5}&page=${
-      page + 1
-    }&apiKey=${apiKey}`;
-    setPage(page + 1);
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    setArticles(articles?.concat(parsedData.articles));
-    setTotalResults(parsedData.totalResults);
+    try {
+      const url = `https://newsapi.org/v2/top-headlines?category=${category}&pagesize=5&page=${
+        page + 1
+      }&apiKey=${apiKey}`;
+      setPage(page + 1);
+
+      let response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP Error! Status: ${response.status}`);
+      }
+
+      let parsedData = await response.json();
+
+      if (!parsedData.articles) {
+        throw new Error("No articles found");
+      }
+
+      setArticles((prevArticles) => [...prevArticles, ...parsedData.articles]);
+      setTotalResults(parsedData.totalResults);
+    } catch (error) {
+      console.error("Error fetching more news:", error);
+    }
   };
 
   return (
@@ -59,9 +88,9 @@ const News = ({ category, setProgress }) => {
         </h2>
 
         <InfiniteScroll
-          dataLength={articles?.length}
+          dataLength={articles ? articles.length : 0} // Ensure it doesn't break
           next={fetchMoreData}
-          hasMore={articles.length != totalResults}
+          hasMore={articles && articles.length !== totalResults}
           loader={<Loading />}
         >
           <div
